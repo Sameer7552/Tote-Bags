@@ -1,0 +1,141 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+*{
+    padding: 0px !important;
+}
+.my-header{
+    /* background-color: rgb(250,142,158); */
+    background-color: rgba(0, 0, 0, 0.863);
+    padding: 8px 0px !important;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.head-col-left{
+    text-align: left;
+}
+.head-col-right{
+    text-align: right;
+}
+.my-nav{
+    font-size: 18;
+    font-weight: 500;
+    padding: 30px 30px !important;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+.none-1-2{
+    display: none;
+}
+.my-btn{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 40px !important;
+    border-radius: 50px;
+    background-color: rgba(65, 65, 65, 0.651);
+    color: white;
+    border: none;
+}
+.carousel-contact{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    color: #fff;
+    text-align: end;
+    width: 100%;
+}
+.carousel-shopnow{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: #fff;
+    text-align: start;
+    width: 100%;
+}
+.my-btn-contact{
+    padding: 20px !important;
+    border-radius: 50px;
+    background-color: rgba(65, 65, 65, 0.671);
+    color: white;
+    border: none;
+}
+.carousel-caption h5{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: .25rem;
+}
+.carousel-caption p{
+    font-size: 25px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 1400px) {
+
+}
+@media only screen and (max-width: 1200px) {
+
+}
+@media only screen and (max-width: 992px) {
+.none-1-2{
+    display: block;
+}
+.none-1-1{
+    display: none;
+}
+.carousel-caption h5{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: .25rem;
+}
+.carousel-caption p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.my-btn{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px !important;
+}
+
+}
+@media only screen and (max-width: 768px) {
+.head-col-left,.head-col-right{
+    text-align: center;
+}
+
+.my-btn-contact{
+    padding: 10px !important;
+}
+.carousel-contact{
+    bottom: 15%;
+    right: 10%;
+    text-align: end;
+}
+.carousel-shopnow{
+    bottom: 15%;
+    left: 10%;
+    text-align: start;
+}
+
+}
+@media only screen and (max-width: 576px) {
+    .my-header{
+        font-size: 12px;
+    }
+    
+.my-btn-contact{
+    padding: 2px 8px !important;
+    border-radius: 50%;
+}
+    
+}
+@media only screen and (max-width: 450px) {
+    .my-btn{
+        font-size: 10px;
+        font-weight: 400;
+        padding: 5px 10px !important;
+    }
+
+}
